@@ -1,7 +1,10 @@
 # Goal
-*describe how this web app will (evantually) earn money or make the world a better place*
+De game industrie is een snel groeiende industrie dat volgens experts kan uitgroeien naar een industrie met een marktwaarde van $ 300 miljard. Met miljarden dollars winst en meer dan 2,5
+miljard gamers wereldwijd is dit een interessante doelgroep om een rendabele applicatie voor te ontwikkelen. Deze groeiende game industrie gaat gepaard met de hardware die noodzakelijk is om de industrie te betreden. Beginnende en amateur gamers komen dikwijls voor een moeilijke keuze te staan wanneer ze moeten beslissen welke hardware ze nodig hebben om aan hun game noden te voldoen. We zouden een applicatie willen creëren die een amateur gamer kan helpen zijn computer onderdelen te kunnen kiezen en bij te leren/informen over computer hardware. 
+
 # Acceptance criteria
-*how do we know that the goals have been reached?*
+De applicatie zou makkelijk te gebruiken moeten zijn voor zowel iemand met veel ervaring als iemand met een beperkte kennis van computer hardware. Als de applicatie interessant genoeg is voor iemand met een uitgebreide kennis van computer hardware en makkelijk te begrijpen is voor iemand met een beparkte kennis, is de applicatie een succes. De applicatie zou dan kunnen gebruikt worden om klanten te overtuigen tot aankoop en kan verkopers helpen om klanten correct te informeren.
+
 # Threat model
 *describe your threat model. One or more architectural diagram expected. Also a list of the principal threats and what you will do about them*
 # Deployment
