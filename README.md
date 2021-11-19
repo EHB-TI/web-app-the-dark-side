@@ -23,6 +23,8 @@ De applicatie zou meerdere functies moeten kunnen uitvoeren:
 
 <img src="Flow_chart.png"/>
 
+<img src="Flow_chart_definitions.png"/>
+
 # Deployment
 *minimally, this section contains a public URL of the app. A description of how your software is deployed is a bonus. Do you do this manually, or did you manage to automate? Have you taken into account the security of your deployment process?*
 # *you may want further sections*
