@@ -13,11 +13,11 @@ De applicatie zou meerdere functies moeten kunnen uitvoeren:
 
 # Threat model
 
-- Data Integriteit: Hashing
+- Data Integriteit: Hashing, we nemen de data en gaan deze met behulp van een key omzetten naar een andere beperktere vorm. Dit gaat er voor zorgen dat de data niet te herkennen is voor personen/programmas zonder de juiste key. Hierdoor bewaren wij de integriteit van onze data.
 
-- Overbelasting API: API tokens
+- Overbelasting API: API tokens (navragen)
 
-- (D)DOS: DDoS-mitigatie
+- (D)DOS: DDoS-mitigatie, er zit een standaard DDoS-mitigatie in Heroku (waar onze applicatie gehost is). Wij zijn aan het kijken voor gebruik te maken van Rack::Attackm Express Slow Down of Express Rate Limit om in onze applicatie ook extra beveiliging te steken.
 
 - Injecties: API is niet toegankelijk voor gebruiker-input
 
