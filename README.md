@@ -15,10 +15,9 @@ De applicatie zou meerdere functies moeten kunnen uitvoeren:
 
 - Data Integriteit: Hashing, we nemen de data en gaan deze met behulp van een key omzetten naar een andere beperktere vorm. Dit gaat er voor zorgen dat de data niet te herkennen is voor personen/programmas zonder de juiste key. Hierdoor bewaren wij de integriteit van onze data.
 
-- Overbelasting API: API tokens (navragen)
+- Overbelasting API: API tokens, we gaan een token generenen op de api en deze in onze applicatie verwerken, zo is het onmogelijk om aan de API te kunnen vonder de applicatie.
 
 - (D)DOS: DDoS-mitigatie, er zit een standaard DDoS-mitigatie in Heroku (waar onze applicatie gehost is). Wij zijn aan het kijken voor gebruik te maken van Rack::Attack Express Slow Down of Express Rate Limit om in onze applicatie ook extra beveiliging te steken.
-Laravel heeft zelf ook een eigen DDoS-mitigatie systeem dat gebruikt maakt van Laravel Throttle.
 
 - Injecties: API is niet toegankelijk voor gebruiker-input
 
