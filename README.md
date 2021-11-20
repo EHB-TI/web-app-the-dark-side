@@ -17,7 +17,7 @@ De applicatie zou meerdere functies moeten kunnen uitvoeren:
 
 - Overbelasting API: API tokens (navragen)
 
-- (D)DOS: DDoS-mitigatie, er zit een standaard DDoS-mitigatie in Heroku (waar onze applicatie gehost is). Wij zijn aan het kijken voor gebruik te maken van Rack::Attackm Express Slow Down of Express Rate Limit om in onze applicatie ook extra beveiliging te steken.
+- (D)DOS: DDoS-mitigatie, er zit een standaard DDoS-mitigatie in Heroku (waar onze applicatie gehost is). Wij zijn aan het kijken voor gebruik te maken van Rack::Attack Express Slow Down of Express Rate Limit om in onze applicatie ook extra beveiliging te steken.
 
 - Injecties: API is niet toegankelijk voor gebruiker-input
 
@@ -26,6 +26,5 @@ De applicatie zou meerdere functies moeten kunnen uitvoeren:
 <img src="Flow_chart_definitions.png"/>
 
 # Deployment
-*minimally, this section contains a public URL of the app. A description of how your software is deployed is a bonus. Do you do this manually, or did you manage to automate? Have you taken into account the security of your deployment process?*
-# *you may want further sections*
-*especially if the use of your application is not self-evident*
+https://web-app-the-dark-side.herokuapp.com/
+
