@@ -18,6 +18,7 @@ De applicatie zou meerdere functies moeten kunnen uitvoeren:
 - Overbelasting API: API tokens (navragen)
 
 - (D)DOS: DDoS-mitigatie, er zit een standaard DDoS-mitigatie in Heroku (waar onze applicatie gehost is). Wij zijn aan het kijken voor gebruik te maken van Rack::Attack Express Slow Down of Express Rate Limit om in onze applicatie ook extra beveiliging te steken.
+Laravel heeft zelf ook een eigen DDoS-mitigatie systeem dat gebruikt maakt van Laravel Throttle.
 
 - Injecties: API is niet toegankelijk voor gebruiker-input
 
