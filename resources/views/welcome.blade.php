@@ -301,7 +301,7 @@
             <div class="col-lg-4">
                 <h4 class="text-uppercase mb-4">About project</h4>
                 <p class="lead mb-0">
-                    This project was made as a thesis by a student of applied informatics
+                    This project was made as a thesis by a student of applied informatics, and expended upon for the course Software Security.
                 </p>
             </div>
         </div>
@@ -309,7 +309,7 @@
 </footer>
 <!-- Copyright Section-->
 <div class="copyright py-4 text-center text-white">
-    <div class="container"><small>Copyright © Michiel Hennion 2021</small></div>
+    <div class="container"><small>Copyright © The Dark Side EhB 2021</small></div>
 </div>
 <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
 <div class="scroll-to-top d-lg-none position-fixed">
