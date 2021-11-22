@@ -28,7 +28,7 @@ De applicatie zou meerdere functies moeten kunnen uitvoeren:
 <img src="Flow_chart_definitions.png"/>
 
 # Deployment
-Hosting van de externa API, database en webapplicatie gaat via https://www.heroku.com/
+Hosting van de externe API, database en webapplicatie gaat via https://www.heroku.com/
 
 https://web-app-the-dark-side.herokuapp.com/
 
