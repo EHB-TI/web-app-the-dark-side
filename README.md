@@ -32,3 +32,5 @@ Hosting van de externe API, database en webapplicatie gaat via https://www.herok
 
 https://web-app-the-dark-side.herokuapp.com/
 
+# Planning
+https://trello.com/b/TfkvJOT3
