@@ -30,7 +30,7 @@ De applicatie zou meerdere functies moeten kunnen uitvoeren:
 # Deployment
 Hosting van de externe API, database en webapplicatie gaat via https://www.heroku.com/
 
-https://web-app-the-dark-side.herokuapp.com/
+https://thedarksidesoftwaresecurity.ga/
 
 # Planning
 https://trello.com/b/TfkvJOT3
