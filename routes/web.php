@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'PCController@index');
 Route::post('/predict', 'PCController@predict')->name("predict");
 Route::post('/suggestion', 'PCController@suggestion')->name("suggestion");
+
+Route::get('/', function() {
+    return Redirect::to('https://thedarksidesoftwaresecurity.ga/');
+});
