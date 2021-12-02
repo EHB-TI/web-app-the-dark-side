@@ -27,6 +27,10 @@ De applicatie zou meerdere functies moeten kunnen uitvoeren:
 
 <img src="Flow_chart_definitions.png"/>
 
+# HSTS
+
+<img src="HSTS_Preload_List.png"/>
+
 # Deployment
 Hosting van de externe API, database en webapplicatie gaat via https://www.heroku.com/
 
