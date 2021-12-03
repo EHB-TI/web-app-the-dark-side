@@ -26,7 +26,6 @@ class PCController extends Controller
         $inputchecks = GPU::where('GPU', 'like', strtr($request->input('gpu'), array('(' => '%', ')' => '%')))->count();
         $inputchecks += CPU::where('CPU', 'like', strtr($request->input('selectedCPU'), array('(' => '%', ')' => '%')))->count();
         $inputchecks += Motherboard::where('Motherboard', 'like', strtr($request->input('motherboard'), array('(' => '%', ')' => '%')))->count();
-        dd($inputchecks);
 
         if ($inputchecks >= 3) {
             $body['CPU'] = $request->input('selectedCPU');
