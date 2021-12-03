@@ -35,8 +35,9 @@ legende
 
 
 # HSTS
-
+HTTP Strict Transport Security
 <img src="HSTS_Preload_List.png"/>
+De site staat nu in de HSTS Google Chrome preload list. 
 
 # Deployment
 Hosting van de externe API, database en webapplicatie gaat via https://www.heroku.com/
