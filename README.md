@@ -19,7 +19,7 @@ De applicatie zou meerdere functies moeten kunnen uitvoeren:
 
 <img src="Flow_chart.png"/>
 
-Legende
+Legende van de flow chart
 
 <img src="Flow_chart_definitions.png"/>
 
