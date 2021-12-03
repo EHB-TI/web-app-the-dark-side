@@ -23,6 +23,9 @@ class PCController extends Controller
 
     public function predict(Request $request)
     {
+        $get_token = GPU::where('token', $request->input('gpu'))->count();
+        dd($get_token);
+        if (GPU::where('GPU', '=', "\"" . $request->input('gpu') . "\"")->exists() > 0 && CPU::where('CPU', '=', $request->input('selectedCPU'))->exists() && Motherboard::where('Motherboard', '=', $request->input('motherboard'))->exists()) {
             $body['CPU'] = $request->input('selectedCPU');
             $body['Motherboard'] = $request->input('motherboard');
             $body['GPU'] = $request->input('gpu');
@@ -59,6 +62,7 @@ class PCController extends Controller
             $data['motherboard'] = Motherboard::orderBy('Motherboard', 'ASC')->get();
 
             return view('welcome')->with('response', $response->body())->with('data', $data)->with('csgo', $csgo->body())->with('overwatch', $overwatch->body())->with('pubg', $pubg->body())->with('fortnite', $fortnite->body())->with('gtav', $gtav->body())->with('request', $request);
+        }
 
     }
 
