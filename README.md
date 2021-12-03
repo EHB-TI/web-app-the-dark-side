@@ -15,6 +15,15 @@ De applicatie zou meerdere functies moeten kunnen uitvoeren:
 
 # Threat model
 
+## dataflow
+
+<img src="Flow_chart.png"/>
+
+<img src="Flow_chart_definitions.png"/>
+
+legende
+
+
 - Data Integriteit: Hashing, we nemen de data en gaan deze met behulp van een key omzetten naar een andere beperktere vorm. Dit gaat er voor zorgen dat de data niet te herkennen is voor personen/programmas zonder de juiste key. Hierdoor bewaren wij de integriteit van onze data.
 
 - Overbelasting API: API tokens, we gaan een token generenen op de api en deze in onze applicatie verwerken, zo is het onmogelijk om aan de API te kunnen vonder de applicatie.
@@ -23,9 +32,6 @@ De applicatie zou meerdere functies moeten kunnen uitvoeren:
 
 - Injecties: API is niet toegankelijk voor gebruiker-input
 
-<img src="Flow_chart.png"/>
-
-<img src="Flow_chart_definitions.png"/>
 
 # HSTS
 
