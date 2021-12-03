@@ -31,7 +31,8 @@ legende
 | Overbelasting API  | Het overbelaste van de API door te veel requests  | API tokens, we gaan een token generenen op de api en deze in onze applicatie verwerken, zo is het onmogelijk om aan de API te kunnen vonder de applicatie.  |
 | (D)DOS: DDoS-mitigatie | Met een (Distributed) Denial-of-Service-aanval (DDoS-aanval) wordt de capaciteit van onlinediensten of de ondersteunende servers en netwerkapparatuur aangevallen. Het resultaat van deze aanval is dat diensten slecht of helemaal niet meer bereikbaar zijn voor medewerkers of klanten.  | DDoS-mitigatie, er zit een standaard DDoS-mitigatie in Heroku (waar onze applicatie gehost is). Wij zijn aan het kijken voor gebruik te maken van Rack::Attack Express Slow Down of Express Rate Limit om in onze applicatie ook extra beveiliging te steken.  |
 | Injecties  | kwaadaardige code wordt ingevoegd in een kwetsbaar softwareprogramma om zo toegang tot het programma te krijgen  | API is niet toegankelijk voor gebruiker-input |
-| man-in-the-middle attacks  | Een man-in-the-middle-attack (MITM) is een algemene term voor wanneer een dader zich positioneert in een gesprek tussen een gebruiker en een applicatie  | HTTPS  |
+| man-in-the-middle attacks  | Een man-in-the-middle-attack (MITM) is een algemene term voor wanneer een dader zich positioneert in een gesprek tussen een gebruiker en een applicatie  | HTTPS |
+| input validatie | Foute input van de gebruiker proberen te vermijden | Met het laravel framework beschermen we de applicatie van cross-site scripting, Cross-site request forgery, sql injections, etc...   |
 
 
 # HSTS
