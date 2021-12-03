@@ -23,7 +23,7 @@ class PCController extends Controller
 
     public function predict(Request $request)
     {
-        $get_token = GPU::where('GPU', $request->input('gpu'))->count();
+        $get_token = GPU::where('GPU', 'like', strtr($request->input('gpu'), array('(' => '%', ')' => '%')))->count();
         dd($get_token);
         if (GPU::where('GPU', '=', "\"" . $request->input('gpu') . "\"")->exists() > 0 && CPU::where('CPU', '=', $request->input('selectedCPU'))->exists() && Motherboard::where('Motherboard', '=', $request->input('motherboard'))->exists()) {
             $body['CPU'] = $request->input('selectedCPU');
