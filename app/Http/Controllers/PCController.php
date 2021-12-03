@@ -23,44 +23,46 @@ class PCController extends Controller
 
     public function predict(Request $request)
     {
-        
 
-        $body['CPU'] = $request->input('selectedCPU');
-        $body['Motherboard'] = $request->input('motherboard');
-        $body['GPU'] = $request->input('gpu');
+        if (GPU::where('gpu', '=', $request->input('gpu'))->exists() && CPU::where('cpu', '=', $request->input('selectedCPU'))->exists() && Motherboard::where('motherboard', '=', $request->input('motherboard'))->exists()) {
+            $body['CPU'] = $request->input('selectedCPU');
+            $body['Motherboard'] = $request->input('motherboard');
+            $body['GPU'] = $request->input('gpu');
 
-        $response = Http::post(env('PYTHON_API').'predict', [
-            json_encode($body)
-        ]);
+            $response = Http::post(env('PYTHON_API').'predict', [
+                json_encode($body)
+            ]);
 
-        $bodyFPS['Score'] = $response->body();
+            $bodyFPS['Score'] = $response->body();
 
-        $csgo = Http::post(env('PYTHON_API').'csgo', [
-            json_encode($bodyFPS)
-        ]);
+            $csgo = Http::post(env('PYTHON_API').'csgo', [
+                json_encode($bodyFPS)
+            ]);
 
-        $overwatch = Http::post(env('PYTHON_API').'overwatch', [
-            json_encode($bodyFPS)
-        ]);
+            $overwatch = Http::post(env('PYTHON_API').'overwatch', [
+                json_encode($bodyFPS)
+            ]);
 
-        $pubg = Http::post(env('PYTHON_API').'pubg', [
-            json_encode($bodyFPS)
-        ]);
+            $pubg = Http::post(env('PYTHON_API').'pubg', [
+                json_encode($bodyFPS)
+            ]);
 
-        $fortnite = Http::post(env('PYTHON_API').'fortnite', [
-            json_encode($bodyFPS)
-        ]);
+            $fortnite = Http::post(env('PYTHON_API').'fortnite', [
+                json_encode($bodyFPS)
+            ]);
 
-        $gtav = Http::post(env('PYTHON_API').'gtav', [
-            json_encode($bodyFPS)
-        ]);
+            $gtav = Http::post(env('PYTHON_API').'gtav', [
+                json_encode($bodyFPS)
+            ]);
 
-        // get all components
-        $data['cpu'] = CPU::orderBy('CPU', 'ASC')->get();
-        $data['gpu'] = GPU::orderBy('GPU', 'ASC')->get();
-        $data['motherboard'] = Motherboard::orderBy('Motherboard', 'ASC')->get();
+            // get all components
+            $data['cpu'] = CPU::orderBy('CPU', 'ASC')->get();
+            $data['gpu'] = GPU::orderBy('GPU', 'ASC')->get();
+            $data['motherboard'] = Motherboard::orderBy('Motherboard', 'ASC')->get();
 
-        return view('welcome')->with('response', $response->body())->with('data', $data)->with('csgo', $csgo->body())->with('overwatch', $overwatch->body())->with('pubg', $pubg->body())->with('fortnite', $fortnite->body())->with('gtav', $gtav->body())->with('request', $request);
+            return view('welcome')->with('response', $response->body())->with('data', $data)->with('csgo', $csgo->body())->with('overwatch', $overwatch->body())->with('pubg', $pubg->body())->with('fortnite', $fortnite->body())->with('gtav', $gtav->body())->with('request', $request);
+        }
+
     }
 
     public function suggestion(Request $request)
