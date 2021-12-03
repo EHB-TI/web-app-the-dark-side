@@ -23,7 +23,6 @@ Legende
 
 <img src="Flow_chart_definitions.png"/>
 
-legende
 
 ## threats
 
