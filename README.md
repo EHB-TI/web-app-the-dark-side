@@ -36,7 +36,9 @@ legende
 
 # HSTS
 HTTP Strict Transport Security
+
 <img src="HSTS_Preload_List.png"/>
+
 De site staat nu in de HSTS Google Chrome preload list. 
 
 # Deployment
