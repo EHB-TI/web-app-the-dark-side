@@ -24,7 +24,7 @@ class PCController extends Controller
     public function predict(Request $request)
     {
 
-        if (GPU::where('gpu', '=', "\"" . $request->input('gpu') . "\"")->count() > 0 && CPU::where('cpu', '=', $request->input('selectedCPU'))->exists() && Motherboard::where('motherboard', '=', $request->input('motherboard'))->exists()) {
+        if (GPU::where('GPU', '=', "\"" . $request->input('gpu') . "\"")->exists() > 0 && CPU::where('CPU', '=', $request->input('selectedCPU'))->exists() && Motherboard::where('Motherboard', '=', $request->input('motherboard'))->exists()) {
             $body['CPU'] = $request->input('selectedCPU');
             $body['Motherboard'] = $request->input('motherboard');
             $body['GPU'] = $request->input('gpu');
