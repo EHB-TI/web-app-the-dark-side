@@ -15,9 +15,11 @@ De applicatie zou meerdere functies moeten kunnen uitvoeren:
 
 # Threat model
 
-## dataflow
+## Dataflow
 
 <img src="Flow_chart.png"/>
+
+Legende
 
 <img src="Flow_chart_definitions.png"/>
 
