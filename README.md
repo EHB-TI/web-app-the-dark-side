@@ -23,6 +23,12 @@ De applicatie zou meerdere functies moeten kunnen uitvoeren:
 
 legende
 
+## threats
+
+| kwetsbaarheden  | omschrijven | oplossing |
+| ------------- | ------------- |------------- 
+| Data Integriteit  | Data integriteit staat in het teken van het behouden en beschermen van de juistheid en de consistentie van data  | Hashing, we nemen de data en gaan deze met behulp van een key omzetten naar een andere beperktere vorm. Dit gaat er voor zorgen dat de data niet te herkennen is voor personen/programmas zonder de juiste key. Hierdoor bewaren wij de integriteit van onze data. |
+| Content Cell  | Content Cell  | Content Cell  |
 
 - Data Integriteit: Hashing, we nemen de data en gaan deze met behulp van een key omzetten naar een andere beperktere vorm. Dit gaat er voor zorgen dat de data niet te herkennen is voor personen/programmas zonder de juiste key. Hierdoor bewaren wij de integriteit van onze data.
 
