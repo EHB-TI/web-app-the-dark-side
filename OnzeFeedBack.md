@@ -48,11 +48,11 @@
 ### Web vulnerabilities
 Er werden 5 alerts vermeld als uitkomst door de webpagina aan te vallen met behulp van ZAP.
 Alerts:
-    - X-Frame-Options Header Not Set (medium risk)
-    - Incomplete or No Cache-control Header Set (low risk)
-    - Timestamps Disclosure – Unix (low risk)
-    - X-Content-Type-Options Header missing (low risk)
-    - Information Disclosure – Suspicious Comments (informational)
+- X-Frame-Options Header Not Set (medium risk)
+- Incomplete or No Cache-control Header Set (low risk)
+- Timestamps Disclosure – Unix (low risk)
+- X-Content-Type-Options Header missing (low risk)
+- Information Disclosure – Suspicious Comments (informational)
 
 ### REST API
 
