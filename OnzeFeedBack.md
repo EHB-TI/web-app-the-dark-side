@@ -55,7 +55,10 @@ Alerts:
 - Information Disclosure – Suspicious Comments (informational)
 
 ### REST API
-
+Er werden 5 alerts vermeld als uitkomst door de webpagina aan te vallen met behulp van ZAP.
+Alerts:
+- Incomplete or No Cache-control Header Set (low risk)
+- Timestamp Disclosure - Unix (low risk)
 
 ## Threat Model
 
