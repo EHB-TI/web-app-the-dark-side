@@ -2,9 +2,6 @@
 
 
 ## Gebruikte tools
-
-
-## Testen:
 - DAST
     - Zed Attack Proxy(https://www.zaproxy.org/)
 - SAST
