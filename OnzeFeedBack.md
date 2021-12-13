@@ -42,6 +42,8 @@
 ### HTTPS
 
 ### Aanmelden
+De user kan niks aan zijn account aanpassen. Er is ook een waarschuwing vemeld door de gebruikte Auth0.
+![Auth0 warning](https://cdn.discordapp.com/attachments/649230019817635854/920046685688844329/unknown.png)
 
 ### Wachtwoorden
 
@@ -61,9 +63,7 @@ Alerts:
 - Timestamp Disclosure - Unix (low risk)
 
 ## Threat Model
-
+- Niet alle elementen die in het Threat model staan zijn duidelijk wat ze precies betekenen.
 
 ## Aanbevelingen
-
-
-## Bijlage
+- Verificatie voor fake accounts/fake emails toevoegen
