@@ -52,6 +52,7 @@ Alerts:
 - Timestamps Disclosure – Unix (low risk)
 - X-Content-Type-Options Header missing (low risk)
 - Information Disclosure – Suspicious Comments (informational)
+
 ![ZAP alerts Web](https://cdn.discordapp.com/attachments/649230019817635854/920047817010077716/unknown.png)
 
 ### REST API
@@ -59,6 +60,7 @@ Er werden 5 alerts vermeld als uitkomst door de webpagina aan te vallen met behu
 Alerts:
 - Incomplete or No Cache-control Header Set (low risk)
 - Timestamp Disclosure - Unix (low risk)
+
 ![ZAP alerts API](https://cdn.discordapp.com/attachments/649230019817635854/920047215358140426/unknown.png)
 
 ## Threat Model
