@@ -18,26 +18,26 @@
 
 ### Acceptance criteria
 
-| Criteria                                                                              |  Passed |
-| ------------------------------------------------------------------------------------- |  :----: |
+| Criteria                                                                              |  Passed | Notes |
+| ------------------------------------------------------------------------------------- |  :----: | ----- |
 | Als klant kan ik een account aanmaken | :white_check_mark: |
-| Als klant kan ik mij inloggen op mijn account | :x: |
-| Als klant kan ik een overzicht zien van actuele en/of toekomstige films | |
-| Als klant kan ik een beschrijving lezen van een film | |
-| Als klant kan ik een programma zien van wanneer een film zal worden afgespeeld | |
-| Als klant kan ik mijn klantgegevens wijzigen/bekijken | |
-| Als klant kan ik uitloggen van mijn account | |
-| Als klant kan ik online tickets aankopen | |
-| Als klant kan ik me uitschrijven van de website | |
-| Als beheerder kan ik inloggen op mijn account | |
-| Als beheerder kan ik films toevoegen | |
-| Als beheerder kan ik het programma aanmaken voor de films | |
-| Als beheerder kan ik uitloggen van mijn account | |
-| Als beheerder kan ik me uitschrijven van de website | |
-| Als beheerder kan ik andere beheerders toevoegen | |
-| Als bezoeker kan ik een overzicht zien van actuele en/of toekomstige films | |
-| Als bezoeker kan ik een beschrijving lezen van een film | |
-| Als bezoeker kan ik een programma zien van wanneer een film zal worden afgespeeld | |
+| Als klant kan ik mij inloggen op mijn account | :white_check_mark: |
+| Als klant kan ik een overzicht zien van actuele en/of toekomstige films | :white_check_mark: |
+| Als klant kan ik een beschrijving lezen van een film | :white_check_mark: |
+| Als klant kan ik een programma zien van wanneer een film zal worden afgespeeld | :white_check_mark: |
+| Als klant kan ik mijn klantgegevens wijzigen/bekijken | :x: |
+| Als klant kan ik uitloggen van mijn account | :white_check_mark: |
+| Als klant kan ik online tickets aankopen | :x: |
+| Als klant kan ik me uitschrijven van de website | :white_check_mark: |
+| Als beheerder kan ik inloggen op mijn account | :white_check_mark: |
+| Als beheerder kan ik films toevoegen | :white_check_mark: |
+| Als beheerder kan ik het programma aanmaken voor de films |  | Voegt geen ticket toe voor datum |
+| Als beheerder kan ik uitloggen van mijn account | :white_check_mark: |
+| Als beheerder kan ik me uitschrijven van de website | :x: |
+| Als beheerder kan ik andere beheerders toevoegen | :x: |
+| Als bezoeker kan ik een overzicht zien van actuele en/of toekomstige films | :white_check_mark: |
+| Als bezoeker kan ik een beschrijving lezen van een film | :white_check_mark: |
+| Als bezoeker kan ik een programma zien van wanneer een film zal worden afgespeeld | :white_check_mark: |
 
 ### HTTPS
 
