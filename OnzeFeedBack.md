@@ -43,6 +43,7 @@ De user kan niks aan zijn account aanpassen. Er is ook een waarschuwing vemeld d
 ![Auth0 warning](https://cdn.discordapp.com/attachments/649230019817635854/920046685688844329/unknown.png)
 
 ### Wachtwoorden
+Wachtwoorden worden niet door eigen applicatie geregeld.
 
 ### Web vulnerabilities
 Er werden 5 alerts vermeld als uitkomst door de webpagina aan te vallen met behulp van ZAP.
