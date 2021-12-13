@@ -52,7 +52,7 @@ Deze feedback is op basis van https://github.com/EHB-TI/web-app-the-wolf-pack/re
   - Web App: ![image](https://user-images.githubusercontent.com/44073137/145894730-f6943b0c-e965-4106-9b36-30d13a85ee46.png)
   - API: ![image](https://user-images.githubusercontent.com/44073137/145895036-443ee55d-9c98-41a5-833f-f185a8e5a5f5.png)
   ![image](https://user-images.githubusercontent.com/44073137/145894801-c59a2d49-fce0-4935-8706-44a649e66922.png)
--De CAA DNS Resource records zijn ook voor beide in orde.
+- De CAA DNS Resource records zijn ook voor beide in orde.
   - Web App: ![image](https://user-images.githubusercontent.com/44073137/145894962-b5e50b4f-8075-4d00-82c8-8700c995ea40.png)
   - API: ![image](https://user-images.githubusercontent.com/44073137/145895071-0f18e9a0-9826-43f7-9a73-7bc8a39a4e8c.png)
 
