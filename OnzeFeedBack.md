@@ -38,6 +38,34 @@ Deze feedback is op basis van https://github.com/EHB-TI/web-app-the-wolf-pack/re
 
 ### HTTPS
 
+- Het is niet mogelijk om de website (https://thewolfpackreact.web.app/) en de API (https://www.the-wolf-pack.be/movies) te bereiken zonder HTTPS te gebruiken.
+- Beide zijn ook trusted door de mainstream browsers:
+  Web App:
+   ![image](https://user-images.githubusercontent.com/44073137/145893922-20acf930-21b3-44d4-ac92-3fae86a28812.png)
+  API:
+  ![image](https://user-images.githubusercontent.com/44073137/145893989-36ef9542-5650-4f67-9392-2fcc755e32b8.png)
+- De domeinen krijgen beide een score van A+ op de SSL Labs server test
+  Web App:
+  ![image](https://user-images.githubusercontent.com/44073137/145894085-87d4b7bf-f194-4eca-83ce-adddf42003fc.png)
+  API:
+  ![image](https://user-images.githubusercontent.com/44073137/145894194-ad31e210-8d27-4649-89c2-46d868d6bd6d.png)
+- Beide bevatten ook een Strict-Transport-Security header
+  Web App:
+  ![image](https://user-images.githubusercontent.com/44073137/145894428-bc9b705b-a33a-4a04-a084-c835ea209063.png)
+  API:
+  ![image](https://user-images.githubusercontent.com/44073137/145894476-5858098d-4244-4d47-a37c-89d5a4a0bb78.png)
+- De web app staat in een HSTS preload list, en het domain van hun API is momenteel pending.
+  Web App:
+  ![image](https://user-images.githubusercontent.com/44073137/145894730-f6943b0c-e965-4106-9b36-30d13a85ee46.png)
+  API:
+  ![image](https://user-images.githubusercontent.com/44073137/145895036-443ee55d-9c98-41a5-833f-f185a8e5a5f5.png)
+  ![image](https://user-images.githubusercontent.com/44073137/145894801-c59a2d49-fce0-4935-8706-44a649e66922.png)
+-De CAA DNS Resource records zijn ook voor beide in orde.
+  Web App:
+  ![image](https://user-images.githubusercontent.com/44073137/145894962-b5e50b4f-8075-4d00-82c8-8700c995ea40.png)
+  API:
+  ![image](https://user-images.githubusercontent.com/44073137/145895071-0f18e9a0-9826-43f7-9a73-7bc8a39a4e8c.png)
+
 ### Aanmelden
 De user kan niks aan zijn account aanpassen. Er is ook een waarschuwing vemeld door de gebruikte Auth0.
 ![Auth0 warning](https://cdn.discordapp.com/attachments/649230019817635854/920046685688844329/unknown.png)
