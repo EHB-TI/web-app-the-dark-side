@@ -1,22 +1,20 @@
 # Feedback
-- [gebruikte tools] Gebruikte tools
-- [Testen]Testen
-  - [Acceptance criteria]Acceptance criteria
-  - [HTTPS]HTTPS
-  - [Aanmelden]Aanmelden
-  - [Wachtwoorden]Wachtwoorden
-  - [Web vulnerabilities]Web vulnerabilities
-  - [REST API]Rest API
-- [Threat Model]Threat model
-- [Aanbevelingen]Aanbevelingen
-- [Bijlage]bijlange 
-
 
 
 ## Gebruikte tools
 
 
 ## Testen:
+-DAST
+    -Zed Attack Proxy(https://www.zaproxy.org/)
+-SAST
+    -Semgrep(https://semgrep.dev/)
+    -Coverity(https://scan.coverity.com/)
+    -SonarQube(https://www.sonarqube.org/features/security/)
+-SCA
+    -Dependabot(https://docs.github.com/en/code-security/supply-chain-security/managing-vulnerabilities-in-your-projects-dependencies/about-alerts-for-vulnerable-dependencies)
+    -Snyk(https://snyk.io/test/)
+    -npm audit(https://docs.npmjs.com/cli/v7/commands/npm-audit)
 
 ### Acceptance criteria
 
@@ -33,6 +31,8 @@
 
 ## Threat Model
 
+
 ## Aanbevelingen
+
 
 ## Bijlage
