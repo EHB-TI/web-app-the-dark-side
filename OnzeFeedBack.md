@@ -101,5 +101,6 @@ Alerts:
 
 ## Aanbevelingen
 - Verificatie voor fake accounts/fake emails toevoegen
-- updaten van packages ! 
+- updaten van packages ! [npm audit.txt](https://github.com/EHB-TI/web-app-the-dark-side/files/7711460/npm.audit.txt)<img width="1552" alt="Screenshot 2021-12-11 at 6 23 21 PM" src="https://user-images.githubusercontent.com/48216176/145995454-35a44089-2ad1-413c-8898-cf74a78a28a9.png">
+
 - owasp injection en secure design moeten herzien worden.
