@@ -12,6 +12,9 @@ Deze feedback is op basis van https://github.com/EHB-TI/web-app-the-wolf-pack/re
     - Dependabot(https://docs.github.com/en/code-security/supply-chain-security/managing-vulnerabilities-in-your-projects-dependencies/about-alerts-for-vulnerable-dependencies)
     - Snyk(https://snyk.io/test/)
     - npm audit(https://docs.npmjs.com/cli/v7/commands/npm-audit)
+- HTTPS
+    - https://www.ssllabs.com/ssltest/
+- 
 
 ### Acceptance criteria
 
