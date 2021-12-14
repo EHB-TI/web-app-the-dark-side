@@ -77,7 +77,18 @@ Alerts:
 
 ![ZAP alerts Web](https://cdn.discordapp.com/attachments/649230019817635854/920047817010077716/unknown.png)
 
-Verder kwamen volgende web vulnerabilites boven tijdens de SCA testen: 
+Volgende kwetsbaarheden (Comon vulnerabilites and exposures) kwamen naar boven in de synk test:
+- missing security headers: 
+    - x content type options (low risk)
+    - x frame options (medium risk)
+    - content security policy (high risk)
+    - x xss protection (low risk)
+- cross-site scriptin (high risk)
+- prototype pullution (medium risk)
+
+![Screenshot 2021-12-14 at 3 20 08 PM](https://user-images.githubusercontent.com/48216176/146016969-8988ff75-fcb9-4b6f-b9a1-4ef053c08a39.png)
+
+Verder kwamen volgende web vulnerabilites boven tijdens de SCA (synk) testen: 
 - command injecton (high risk)
 - remote code execution (high risk)
 - arbritary code injecton (medium risk)
