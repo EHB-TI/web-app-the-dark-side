@@ -81,11 +81,10 @@ Verder kwamen volgende web vulnerabilites boven tijdens de SCA testen:
 - regular expression denial of service (high risk)
 - session fixation (medium risk)
 
-![SYNK alerts]<img width="1552" alt="Screenshot 2021-12-11 at 6 35 10 PM" src="https://user-images.githubusercontent.com/48216176/145994106-dffac9b6-9d05-457e-9182-7e8972c5dffc.png">
-![SYNK alerts]<img width="1552" alt="Screenshot 2021-12-11 at 6 35 23 PM" src="https://user-images.githubusercontent.com/48216176/145994166-3e1501c1-ff2f-42d2-898f-b6749b396c77.png">
-![SYNK alerts]<img width="1552" alt="Screenshot 2021-12-11 at 6 35 30 PM" src="https://user-images.githubusercontent.com/48216176/145994192-9745a4e4-587f-4857-978a-ce7ef4641fed.png">
-![SYNK alerts]<img width="1552" alt="Screenshot 2021-12-11 at 6 35 44 PM" src="https://user-images.githubusercontent.com/48216176/145994237-0bebab06-3013-46a4-a7d7-a9806e6b4fbb.png">
-![SYNK alerts]
+<img width="1552" alt="Screenshot 2021-12-11 at 6 35 10 PM" src="https://user-images.githubusercontent.com/48216176/145994106-dffac9b6-9d05-457e-9182-7e8972c5dffc.png">
+<img width="1552" alt="Screenshot 2021-12-11 at 6 35 23 PM" src="https://user-images.githubusercontent.com/48216176/145994166-3e1501c1-ff2f-42d2-898f-b6749b396c77.png">
+<img width="1552" alt="Screenshot 2021-12-11 at 6 35 30 PM" src="https://user-images.githubusercontent.com/48216176/145994192-9745a4e4-587f-4857-978a-ce7ef4641fed.png">
+<img width="1552" alt="Screenshot 2021-12-11 at 6 35 44 PM" src="https://user-images.githubusercontent.com/48216176/145994237-0bebab06-3013-46a4-a7d7-a9806e6b4fbb.png">
 
 
 ### REST API
