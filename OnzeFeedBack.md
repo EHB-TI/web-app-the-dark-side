@@ -6,8 +6,8 @@ Deze feedback is op basis van https://github.com/EHB-TI/web-app-the-wolf-pack/re
     - Zed Attack Proxy(https://www.zaproxy.org/)
 - SAST
     - Semgrep(https://semgrep.dev/)
-    - Coverity(https://scan.coverity.com/)
-    - SonarQube(https://www.sonarqube.org/features/security/)
+    - Coverity(https://scan.coverity.com/) (gaven geen security breaches)
+    - SonarQube(https://www.sonarqube.org/features/security/) (gaven geen securirty breaches)
 - SCA
     - Dependabot(https://docs.github.com/en/code-security/supply-chain-security/managing-vulnerabilities-in-your-projects-dependencies/about-alerts-for-vulnerable-dependencies)
     - Snyk(https://snyk.io/test/)
@@ -74,6 +74,20 @@ Alerts:
 
 ![ZAP alerts Web](https://cdn.discordapp.com/attachments/649230019817635854/920047817010077716/unknown.png)
 
+Verder kwamen volgende web vulnerabilites boven tijdens de SCA testen: 
+- command injecton (high risk)
+- remote code execution (high risk)
+- arbritary code injecton (medium risk)
+- regular expression denial of service (high risk)
+- session fixation (medium risk)
+
+![SYNK alerts]<img width="1552" alt="Screenshot 2021-12-11 at 6 35 10 PM" src="https://user-images.githubusercontent.com/48216176/145994106-dffac9b6-9d05-457e-9182-7e8972c5dffc.png">
+![SYNK alerts]<img width="1552" alt="Screenshot 2021-12-11 at 6 35 23 PM" src="https://user-images.githubusercontent.com/48216176/145994166-3e1501c1-ff2f-42d2-898f-b6749b396c77.png">
+![SYNK alerts]<img width="1552" alt="Screenshot 2021-12-11 at 6 35 30 PM" src="https://user-images.githubusercontent.com/48216176/145994192-9745a4e4-587f-4857-978a-ce7ef4641fed.png">
+![SYNK alerts]<img width="1552" alt="Screenshot 2021-12-11 at 6 35 44 PM" src="https://user-images.githubusercontent.com/48216176/145994237-0bebab06-3013-46a4-a7d7-a9806e6b4fbb.png">
+![SYNK alerts]
+
+
 ### REST API
 Er werden 5 alerts vermeld als uitkomst door de webpagina aan te vallen met behulp van ZAP.
 Alerts:
@@ -85,5 +99,8 @@ Alerts:
 ## Threat Model
 - Niet alle elementen die in het Threat model staan zijn duidelijk wat ze precies betekenen.
 
+
 ## Aanbevelingen
 - Verificatie voor fake accounts/fake emails toevoegen
+- updaten van packages ! 
+- owasp injection en secure design moeten herzien worden.
