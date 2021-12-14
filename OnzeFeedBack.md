@@ -88,7 +88,7 @@ Verder kwamen volgende web vulnerabilites boven tijdens de SCA testen:
 
 
 ### REST API
-Er werden 5 alerts vermeld als uitkomst door de webpagina aan te vallen met behulp van ZAP.
+Er werden 5 alerts vermeld als uitkomst door de API aan te vallen met behulp van ZAP.
 Alerts:
 - Incomplete or No Cache-control Header Set (low risk)
 - Timestamp Disclosure - Unix (low risk)
