@@ -34,7 +34,7 @@ Legende van de flow chart
 | Injecties  | kwaadaardige code wordt ingevoegd in een kwetsbaar softwareprogramma om zo toegang tot het programma te krijgen  | API is niet toegankelijk voor gebruiker-input |
 | man-in-the-middle attacks  | Een man-in-the-middle-attack (MITM) is een algemene term voor wanneer een dader zich positioneert in een gesprek tussen een gebruiker en een applicatie  | HTTPS |
 | input validatie | Foute input van de gebruiker proberen te vermijden | Met het laravel framework en input checks beschermen we de applicatie van cross-site scripting, Cross-site request forgery, sql injections, etc...   |
-| Externe API | Onze app maakt gebruikt van een externe API | Is afgeschermd |
+| Externe API | Onze app maakt gebruikt van een externe API | |
 
 
 # HSTS
