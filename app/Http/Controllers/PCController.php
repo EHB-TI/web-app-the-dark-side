@@ -31,7 +31,7 @@ class PCController extends Controller
             $body['CPU'] = $request->input('selectedCPU');
             $body['Motherboard'] = $request->input('motherboard');
             $body['GPU'] = $request->input('gpu');
-            $body['KEY'] = "3163-a50e-9abc-49be-94c2-4e8a-e480-cbd9";
+            $body['KEY'] = "302a4299-736e-4ef3-84fc-a9f400e84b24";
 
             $response = Http::post(env('PYTHON_API').'predict', [
                 json_encode($body)
