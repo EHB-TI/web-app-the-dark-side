@@ -49,4 +49,3 @@ https://thedarksidesoftwaresecurity.ga/
 
 # Planning
 https://trello.com/b/TfkvJOT3
-test
