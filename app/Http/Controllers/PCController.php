@@ -94,6 +94,7 @@ class PCController extends Controller
         $body['currentGpu'] = $currentGpu;
         $body['suggestedGpus'] = $gpus;
         $body['currentScore'] = $score;
+        $body['KEY'] = "3163-a50e-9abc-49be-94c2-4e8a-e480-cbd9";
 
         $response = Http::post(env('PYTHON_API').'suggest', [
             json_encode($body)
