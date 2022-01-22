@@ -36,6 +36,7 @@ Legende van de flow chart
 | man-in-the-middle attacks  | Een man-in-the-middle-attack (MITM) is een algemene term voor wanneer een dader zich positioneert in een gesprek tussen een gebruiker en een applicatie  | HTTPS |
 | input validatie | Foute input van de gebruiker proberen te vermijden | Met het laravel framework en input checks beschermen we de applicatie van cross-site scripting, Cross-site request forgery, sql injections, etc...   |
 
+Alle oplossing zijn reeds toegepast in de laatste versie.
 
 # HSTS
 HTTP Strict Transport Security
