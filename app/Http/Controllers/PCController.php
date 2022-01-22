@@ -6,6 +6,7 @@ use App\Models\PC;
 use App\Models\CPU;
 use App\Models\GPU;
 use App\Models\Motherboard;
+use http\Env;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 
@@ -31,7 +32,7 @@ class PCController extends Controller
             $body['CPU'] = $request->input('selectedCPU');
             $body['Motherboard'] = $request->input('motherboard');
             $body['GPU'] = $request->input('gpu');
-            $body['KEY'] = "3163-a50e-9abc-49be-94c2-4e8a-e480-cbd9";
+            $body['KEY'] = env('KEY');
 
             $response = Http::post(env('PYTHON_API').'predict', [
                 json_encode($body)
@@ -94,7 +95,7 @@ class PCController extends Controller
         $body['currentGpu'] = $currentGpu;
         $body['suggestedGpus'] = $gpus;
         $body['currentScore'] = $score;
-        $body['KEY'] = "3163-a50e-9abc-49be-94c2-4e8a-e480-cbd9";
+        $body['KEY'] = env('KEY');
 
         $response = Http::post(env('PYTHON_API').'suggest', [
             json_encode($body)
