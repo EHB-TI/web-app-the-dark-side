@@ -3,8 +3,16 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Final Work" />
+    <meta name="description" content="Software security project" />
     <meta name="author" content="Michiel Hennion" />
+    <!-- content security policy -->
+    <meta http-equiv="content-security-policy"
+        content="script-src 'self' dnjs.cloudflare.com cdn.jsdelivr.net use.fontawesome.com maxcdn.bootstrapcdn.com;
+        default-src 'self';
+        style-src 'self' fonts.googleapis.com;
+        frame-src 'self' www.youtube.com;
+        default-src 'self' https://finalwork-api.herokuapp.com;"
+    >
     <title>Predicting PC Performance</title>
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
